@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Italianno&family=Kenia&family=Libre+Baskerville&display=swap');
+html{
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+body{
+    margin: 0;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    min-height: 100vh;
+    position: relative;
+    background-color: rgb(89, 60, 60);
+    background-image: radial-gradient(whitesmoke, rgb(93, 76, 56));
+    display: flex;
+    flex-direction: column;
+    background-size: 5000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(../vega/techbody1.jpg) ;
+}
+.img{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+header , nav , main , footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    place-content: center;
+    text-align: center;
+}
+header , footer{
+    position: sticky;
+    background-color: cadetblue;
+    color: aqua;
+}
+nav{
+    background-color: black;
+    padding: 1rem;
+    border-bottom: 2.5px solid whitesmoke;
+    
+}
+header{
+    color: #000;
+    top:0;
+    text-shadow: 5px 5px 5px#ffffff1e;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image: url(../vega/techmain.jpg);
+}
+.h2{
+    color: #000;
+}
+
+main{
+    background-image: radial-gradient(whitesmoke, rgb(80, 43, 1));
+    flex-grow: 1;
+    border: 10px solid #ffffffc6;
+    border-radius: 50px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.a1{
+    color: rgb(42, 227, 255);
+    text-shadow: 5px 5px 5px#0000008f;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image: url(../vega/techpro1.jpg);
+}
+.a2{
+    color:rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px#0000008f;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image: url(../vega/techpro.jpg);
+}
+.a3{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px#ffffff8f;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image: url(../vega/techpro2.png);
+}
+footer{
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px#ffffff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image: url(../vega/techall.jpg);
+}
+.me{
+    padding: 1rem;
+}
+main img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+main p{
+    padding: 3rem;
+    
+}
+footer a {
+    white-space: nowrap;
+    margin: 1rem;
+}
+header{
+    display: grid;
+    grid-template-columns: 0.01fr 15fr;
+}
+nav{
+    color: rgb(128, 166, 198);
+    text-shadow: 2px 2px 2px #00000095;
+    background-size: cover;
+    background-position: center ;
+    background-color:cadetblue;
+    background-image: url(../vega/tech.jpg);
+    border: 2px 0 2px 0 solid white;
+    border-radius: 0px 0 20px 20px;
+}
+.section{
+    width: 100%;
+    display: block;
+    padding: 0rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+header h1{
+    padding-top: 0.25rem;
+}
+.mainlink{
+    font-size: 4rem;
+    margin-bottom: 0.35rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    background-color: #00000064;
+    border-radius: 50px;
+    color: whitesmoke;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width:320px) {
+    body{
+        background-color:rgb(108, 107, 99) ;
+        background-image: radial-gradient(whitesmoke, rgb(255, 0, 0));
+        background-size: 5000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(../vega/techbody1.jpg) ;
+    }
+    main {
+        font-size: 0.75rem;
+        
+    }
+    main p{
+        padding: 0;
+        margin: 0;
+    }
+    
+    main h6{
+        margin: 0.25rem;
+    }
+    header h1{
+        margin-top: 1.75rem;
+        margin-bottom: 0;
+        padding: 0;
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+    header{
+        max-height: 50px;
+    }
+    footer a{
+        padding: 0;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1rem;
+        
+    }
+    footer a:hover{
+        font-size: 1rem;
+        background-color: #000;
+        padding: 4.5px;
+    }
+    .section{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (min-width:375px) {
+    body{
+        background-color:rgb(108, 107, 99) ;
+        background-image: radial-gradient(whitesmoke, rgb(126, 119, 151));
+        background-repeat: no-repeat;
+        background-size: 5000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(../vega/techbody1.jpg) ;
+    }
+
+    p {
+        padding: 0rem!important;
+        margin-top: 0rem;
+        text-align: start;
+        padding-left: 1rem!important;
+        font-weight: 800
+    }
+    h6{
+        margin: 0.7rem!important;
+        font-size: 1.25rem;
+    }
+
+}
+@media screen and (min-width:425px) {
+    body{
+        background-color:gold ;
+        background-image: radial-gradient(whitesmoke, rgb(92, 65, 10));
+        background-size: 5000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(../vega/techbody1.jpg) ;
+    }
+
+}
+@media screen and (min-width:768px) {
+    body{
+        background-color:gold ;
+        background-image: radial-gradient(whitesmoke, gold);
+        background-size: 5000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(../vega/techbody1.jpg) ;
+    }
+
+}
+@media screen and (min-width:768px) {
+    body{
+        background-color:gold ;
+        background-image: radial-gradient(whitesmoke, rgb(0, 51, 255));
+        background-size: 5000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(../vega/techbody1.jpg) ;
+    }
+
+    main h2{
+        font-size: 5em;
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 9rem;
+        padding-top: 10rem;
+    }
+    footer{
+    display: none;
+    }
+    .a1{
+        padding: 0;
+        margin: 0;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .a2{
+        padding: 0;
+        margin: 0;
+        margin-left: 0.5rem!important;
+        margin-right: 0.5rem!important;
+    }
+    .a3{
+        padding: 0;
+        margin: 0;
+        margin-left: 0.5rem!important;
+        margin-right: 0.5rem!important;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    body{
+        background-color:gold ;
+        background-image: radial-gradient(rgb(54, 52, 52), rgb(0, 0, 0));
+        background-size: 5000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url(../vega/techbody1.jpg) ;
+    }
+    main h2{
+        font-size: 10em;
+    }
+    main{
+        font-size: 2rem;
+    }
+    main img {
+        padding: 0;
+        margin: 0;
+    }
+    main h6{
+        padding: 0;
+        margin: 0;}
+}
+@media screen and (max-height:450px) and (min-aspect-ratio:7/9) {
+    div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+    footer{
+        display: none;
+    }
+    div:last-child{
+        grid-column: span 3;
+        justify-self: center;
+    }
+    header{
+        padding: 0.02rem;
+        max-height: 3rem;
+    }
+    .sextion{
+        padding: 0.02rem;
+        max-height: 3rem;
+    }
+    nav{
+        padding: 0.02rem;
+        max-height: 3rem;
+    }
+}
